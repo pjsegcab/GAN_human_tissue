@@ -29,10 +29,10 @@ Duration = 38 hours
 In order to validate the output quality, I carried out an analysis (tSNE and PCA) to compare the statistical variability of the FAKE VS. REAL images. Highlighted with blue arrows are the fake images.  
 Notice that they are distributed along the graph, they do not form a cluster theirselves. This means the statistical variability is similar for both fake and real images and the generated ones can be added to the real dataset as if they were real ones for further studies.  
 
-_tSNE for 128x128 images resolution:_  
+__tSNE for 128x128 images resolution:__  
 ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/Validation/tSNE_128px.png)  
 
-_PCA for 128x128 images resolution:_  
+__PCA for 128x128 images resolution:__  
 ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/Validation/PCA_128px.png)  
 
 
