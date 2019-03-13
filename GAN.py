@@ -201,7 +201,7 @@ def generate(img_num):
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--path", type = str, default = "../Dataset/ISIC_2017/")
-    parser.add_argument("--TYPE", type = str, default = "generate")
+    parser.add_argument("--TYPE", type = str, default = "train")
     parser.add_argument("--batch_size", type = int, default = 100)
     parser.add_argument("--epochs", type = int, default = 10)
     parser.add_argument("--img_num", type = int, default = 25)
