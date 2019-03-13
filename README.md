@@ -2,9 +2,9 @@
 Implementation of Generative Adversarial Networks (GANs) for the generation of images of human tissue.
 
 ## model.py
-defines the architecture of the generator, the discriminator and both of them stacked.
+It defines the architecture of the generator, the discriminator and both of them stacked.
 ## GAN.py
-implements the loading and processing of the real dataset, after that loads the models and then performs the training process of the GAN.
+It implements the loading and processing of the real dataset, after that loads the models and then performs the training process of the GAN.
 
 ## Arguments
 Please take a close look at the get_args function, it parses the arguments that you want to set: paths, train or generate, number of epochs, etc. 
