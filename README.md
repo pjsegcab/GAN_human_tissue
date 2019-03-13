@@ -26,18 +26,18 @@ Duration = 38 hours
 
 ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/11.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/18.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/19.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/20.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/22.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/23.jpg)  
 
-In order to validate the output quality, I carried out an analysis (tSNE and PCA) to compare the statistical variability of the fake images VS. the real ones. Highlighted with blue arrows are the fake images.  
-Notice that they do not form a cluster theirselves, therefore the statistical variability is similar for both fake and real images.
+In order to validate the output quality, I carried out an analysis (tSNE and PCA) to compare the statistical variability of the FAKE VS. REAL images. Highlighted with blue arrows are the fake images.  
+Notice that they are distributed along the graph, they do not form a cluster theirselves. This means the statistical variability is similar for both fake and real images and the generated ones can be added to the real dataset as if they were real ones for further studies.  
 
-*tSNE for 128x128 images resolution:*  
+_tSNE for 128x128 images resolution:_  
 ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/Validation/tSNE_128px.png)  
 
-*PCA for 128x128 images resolution:*  
+_PCA for 128x128 images resolution:_  
 ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/Validation/PCA_128px.png)  
 
 
 ## Limitations
-I used a MacBook Pro (i5 2.7 GHz processor, RAM of 8 GB and Graphic card Intel Iris Graphics 6100). The highest decent resolution that I could achieve is 128x128, I tried 512x5112 and the training process did not converge. The hardware is a stopper trying to get higher resolutions for the generated images.
+HARDWARE. I used a MacBook Pro (i5 2.7 GHz processor, RAM of 8 GB and Graphic card Intel Iris Graphics 6100). The highest decent resolution that I could achieve is 128x128, I tried 512x512 and the training process did not converge. The hardware is a stopper trying to get higher resolutions for the generated images.
 
 
 
