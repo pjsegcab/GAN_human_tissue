@@ -1,5 +1,5 @@
 # GAN_human_tissue
-Implementation of Generative Adversarial Networks (GANs) for the generation of images of human tissues.
+Implementation of Generative Adversarial Networks (GANs) for the generation of images of human tissue.
 
 ## model.py
 defines the architecture of the generator, the discriminator and both of them stacked.
