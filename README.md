@@ -26,11 +26,13 @@ Duration = 38 hours
 
 ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/11.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/18.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/19.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/20.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/22.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/128x128/23.jpg)  
 
-In order to validate the output quality, I carried out an analysis (tSNE and PCA) to compare the statistical variability of the fake images VS. the real ones.  
-tSNE for 128x128 images resolution:  
+In order to validate the output quality, I carried out an analysis (tSNE and PCA) to compare the statistical variability of the fake images VS. the real ones. Highlighted with blue arrows are the fake images.  
+Notice that they do not form a cluster theirselves, therefore the statistical variability is similar for both fake and real images.
+
+*tSNE for 128x128 images resolution:*  
 ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/Validation/tSNE_128px.png)  
 
-PCA for 128x128 images resolution:  
+*PCA for 128x128 images resolution:*  
 ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/Validation/PCA_128px.png)  
 
 
