@@ -13,6 +13,6 @@ Please take a close look at the get_args function, it parses the arguments that 
 I used as a real dataset, 2000 images of skin lessons gotten from ISIC 2017. 
 As results I managed to generate 64x64 images, such as:
 
-![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/64x64/10.jpg)
+![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/64x64/10.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/64x64/11.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/64x64/14.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/64x64/19.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/64x64/20.jpg) ![alt text](https://github.com/pjsegcab/GAN_human_tissue/blob/master/64x64/21.jpg)
 
 
